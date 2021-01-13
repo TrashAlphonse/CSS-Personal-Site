@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    text-align: center;   
+    font-family: 'Merriweather', serif;  
+}
+
+h1 {
+    margin: 50px auto 0;
+    font-family: 'Handlee', cursive;
+    font-size: 5.625rem;
+    color: #2a3a3a;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #2a3a3a;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #485858;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+a {
+    color: #485858;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border-style: dotted;
+    width: 5%;
+    border-width: 10px 0 0 0;
+    color: #ccccb7;
+}
+
+.top-container {
+    background-color: salmon;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container {
+    padding-top: 100px;
+    background-color: rgb(227 233 239);
+}
+
+.bottom-container {
+    background-color: rgb(227 233 239);
+    padding: 50px 0 10px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-container-subtitle {
+    font-weight: normal;
+}
+
+.profile {
+    margin-bottom:80px;
+}
+
+.skills {
+    padding-top: 80px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.computer-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.detective-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    background-color: salmon;
+    margin-top: 100px;
+    padding: 20px 0;
+}
+
+.getintouch-descr {
+    margin: 33px 0;
+}
+
+.btn {
+    display: inline-block;
+    margin: 23px 0;
+    padding: 15px;
+    background-color: seashell;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.footer-link {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    margin: 40px 0 10px;
+}
