@@ -34,6 +34,11 @@ a {
     font-family: 'Montserrat', sans-serif;
 }
 
+a:hover {
+    color: rgb(44, 40, 39); 
+    transition: background-color .2s linear;
+}
+
 hr {
     border-style: dotted;
     width: 5%;
@@ -82,7 +87,7 @@ hr {
 }
 
 .skills {
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 .skill-row {
@@ -121,6 +126,11 @@ hr {
     padding: 15px 30px;
     border-radius: 10px;
     font-weight: bold;
+}
+
+.btn:hover {
+   background-color: rgb(243, 194, 177); 
+   transition: background-color .2s linear;
 }
 
 .footer-link {
